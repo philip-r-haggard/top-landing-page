@@ -27,6 +27,32 @@ header {
     color: #F9FAF8;
 }
 
+.content-1, .content-2, .content-3, .content-4 {
+    outline: 2px solid red;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.left {
+    outline: 2px solid blue;
+    width: 300px;
+}
+
+.right {
+    outline: 2px solid blue;
+    width: 300px;
+}
+
 footer {
     background-color: #1F2947;
     color: white;
