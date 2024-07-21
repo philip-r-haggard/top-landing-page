@@ -53,35 +53,85 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    padding: 10px;
+    gap: 30px;
+    padding: 70px;
+
+    background-color: #1F2947;
+    color: #F9FAF8;
+}
+
+.left {
+    width: 400px;
+}
+
+.left .header-1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 1000;
+}
+
+.right {
+    width: 450px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.content-1 button {
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;;
 }
 
 .content-2 {
     display: flex;
     flex-direction: column;
     flex: 1;
+    gap: 40px;
 }
 
 .title {
     text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F2937;
+    margin-top: 20px;
 }
 
 .cards {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
+    gap: 15px;
 }
 
 .box {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
+}
+
+.info {
+    text-align: center;
+    max-width: 250px;
+    font-size: 18px;
+    color: #555555;
 }
 
 .square {
     width: 100px;
     height: 100px;
-    outline: 2px solid;
+    outline: 2px solid #3882F6;
+    border-radius: 10px;
 }
 
 .content-3 {
@@ -90,27 +140,34 @@ header {
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: center;
+    gap: 10px;
 }
 
-
-
-.left {
-    width: 300px;
+.text {
+    margin: 50px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
-.right {
-    outline: 2px solid blue;
-    width: 300px;
+.author {
+    align-self: flex-end;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .content-4 {
     border-radius: 5px;
     background-color: #3882F6;
-    margin: 80px;
+    margin: 50px;
     color: #F9FAF8;
     /******************************/
     justify-content: space-around;
     gap: 20px;
+    padding: 15px;
 }
 
 .content-4 button {
